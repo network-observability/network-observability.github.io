@@ -137,6 +137,72 @@
   margin: 1rem 0 2rem;
 }
 
+/* Horizontal-scroll variant — for sections that grow over time (Watch).
+ * Cards keep their width and the row scrolls; on touch this is a swipe
+ * gesture, on desktop a mouse-wheel + drag. Snap-points centre cards as
+ * the user scrolls. */
+.hub-media--scroll {
+  display: flex;
+  grid-template-columns: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0.25rem;
+  padding: 0.25rem 0.25rem 1rem;
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  /* subtle right-edge fade hints there's more off-screen */
+  -webkit-mask-image: linear-gradient(
+    to right,
+    #000 0,
+    #000 calc(100% - 32px),
+    transparent 100%
+  );
+          mask-image: linear-gradient(
+    to right,
+    #000 0,
+    #000 calc(100% - 32px),
+    transparent 100%
+  );
+}
+
+.hub-media--scroll > .hub-media__card {
+  flex: 0 0 320px;
+  max-width: 320px;
+  scroll-snap-align: start;
+}
+
+/* When fully scrolled, drop the right-edge fade so the last card isn't
+ * permanently dimmed. */
+.hub-media--scroll:hover {
+  -webkit-mask-image: none;
+          mask-image: none;
+}
+
+/* Slim, themed scrollbar. */
+.hub-media--scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.hub-media--scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.hub-media--scroll::-webkit-scrollbar-thumb {
+  background: var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+}
+
+.hub-media--scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--hub-gradient-mid);
+}
+
+@media (max-width: 600px) {
+  .hub-media--scroll > .hub-media__card {
+    flex: 0 0 280px;
+    max-width: 280px;
+  }
+}
+
 .hub-media__card {
   display: flex;
   flex-direction: column;

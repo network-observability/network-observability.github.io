@@ -47,7 +47,7 @@ hide:
 </a>
 </div>
 
-<p class="hub-buy__caption">Telemetry pipelines, queries, dashboards, alerting, automation, and AI-assisted operations — chapter by chapter, with the lab as your hands-on companion. By <a href="https://github.com/davidban77">David Flores</a>, <a href="https://github.com/chadell">Christian Adell</a>, and <a href="https://github.com/jvanderaa">Josh VanDeraa</a>.</p>
+<p class="hub-buy__caption">Telemetry pipelines, queries, dashboards, alerting, automation, and AI-assisted operations — chapter by chapter, with the lab as your hands-on companion.</p>
 
 ## Listen
 
@@ -74,23 +74,35 @@ hide:
 
 ## Watch
 
-<div class="hub-media">
-<a class="hub-media__card" href="https://www.youtube.com/watch?v=GFETzK1Ji68" target="_blank" rel="noopener">
-  <span class="hub-media__eyebrow">Cisco NetDev gurus &middot; Part 1</span>
+<div class="hub-media hub-media--scroll">
+<a class="hub-media__card" href="https://www.youtube.com/watch?v=GFETzK1Ji68&t=3855s" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Cisco DevNet &middot; Part 1</span>
   <span class="hub-media__title">Modern Network Observability — the framework</span>
   <span class="hub-media__body">First of a three-part series. The why, the pillars, and the data pipeline that ties them together.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
-<a class="hub-media__card" href="https://www.youtube.com/watch?v=9y-uu62NKt4" target="_blank" rel="noopener">
-  <span class="hub-media__eyebrow">Cisco NetDev gurus &middot; Part 2</span>
-  <span class="hub-media__title">Modern Network Observability (cont.) — Ep. 74</span>
-  <span class="hub-media__body">Going deeper on the framework + the data pipeline through real examples.</span>
+<a class="hub-media__card" href="https://www.youtube.com/watch?v=wZj8uEimQQs&t=2012s" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Cisco DevNet &middot; Part 2</span>
+  <span class="hub-media__title">Modern Network Observability — going deeper</span>
+  <span class="hub-media__body">Second of three. The data pipeline up close, with real examples and the trade-offs you hit in production.</span>
+  <span class="hub-media__cta">Watch on YouTube →</span>
+</a>
+<a class="hub-media__card" href="https://www.youtube.com/watch?v=9y-uu62NKt4&t=1636s" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Cisco DevNet &middot; Part 3</span>
+  <span class="hub-media__title">Modern Network Observability — putting it together</span>
+  <span class="hub-media__body">Closing the series. Dashboards, alerts, and the automation that turns the pipeline into action.</span>
+  <span class="hub-media__cta">Watch on YouTube →</span>
+</a>
+<a class="hub-media__card" href="https://www.youtube.com/watch?v=UD0uLzAE_Iw" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">NONOG &middot; Oslo</span>
+  <span class="hub-media__title">Modern Network Observability — Oslo talk</span>
+  <span class="hub-media__body">Conference talk at the Norwegian Network Operators Group meeting in Oslo.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
 <a class="hub-media__card" href="https://www.youtube.com/watch?v=7zRK9a9DieY" target="_blank" rel="noopener">
   <span class="hub-media__eyebrow">NetBCN &middot; March 2025</span>
   <span class="hub-media__title">Modern Network Observability — Barcelona talk</span>
-  <span class="hub-media__body">Conference talk by David Flores — story-led, ~30 minutes, with audience Q&amp;A.</span>
+  <span class="hub-media__body">Conference talk at NetBCN by David Flores — story-led, ~30 minutes, with audience Q&amp;A.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
 </div>
