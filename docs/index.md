@@ -49,6 +49,17 @@ hide:
 
 <p class="hub-buy__caption">Telemetry pipelines, queries, dashboards, alerting, automation, and AI-assisted operations — chapter by chapter, with the lab as your hands-on companion.</p>
 
+## The companion lab
+
+<div class="hub-companion-wrap">
+<a class="hub-companion" href="https://github.com/network-observability/network-observability-lab" target="_blank" rel="noopener">
+  <span class="hub-companion__eyebrow">The book's playground</span>
+  <span class="hub-companion__title">network-observability-lab</span>
+  <span class="hub-companion__body">The book's chapter-by-chapter playground with real cEOS / SR Linux containers, every collector variant, and every scenario in the book. The hands-on companion the chapters keep referring to.</span>
+  <span class="hub-companion__cta">Open the lab on GitHub →</span>
+</a>
+</div>
+
 ## Listen
 
 <div class="hub-media">
@@ -94,9 +105,9 @@ hide:
   <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
 <a class="hub-media__card" href="https://www.youtube.com/watch?v=UD0uLzAE_Iw" target="_blank" rel="noopener">
-  <span class="hub-media__eyebrow">NONOG &middot; Oslo</span>
+  <span class="hub-media__eyebrow">NONOG &middot; September 2025</span>
   <span class="hub-media__title">Modern Network Observability — Oslo talk</span>
-  <span class="hub-media__body">Conference talk at the Norwegian Network Operators Group meeting in Oslo.</span>
+  <span class="hub-media__body">Conference talk by David Flores at the Norwegian Network Operators Group meeting in Oslo.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
 <a class="hub-media__card" href="https://www.youtube.com/watch?v=7zRK9a9DieY" target="_blank" rel="noopener">
@@ -104,16 +115,5 @@ hide:
   <span class="hub-media__title">Modern Network Observability — Barcelona talk</span>
   <span class="hub-media__body">Conference talk at NetBCN by David Flores — story-led, ~30 minutes, with audience Q&amp;A.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
-</a>
-</div>
-
-## The companion lab
-
-<div class="hub-companion-wrap">
-<a class="hub-companion" href="https://github.com/network-observability/network-observability-lab" target="_blank" rel="noopener">
-  <span class="hub-companion__eyebrow">After the workshop</span>
-  <span class="hub-companion__title">network-observability-lab</span>
-  <span class="hub-companion__body">The book's chapter-by-chapter playground with real cEOS / SR Linux containers, every collector variant, and every scenario in the book. Larger surface area, more depth, the place to go once the workshop has whetted your appetite.</span>
-  <span class="hub-companion__cta">Open the lab on GitHub →</span>
 </a>
 </div>
