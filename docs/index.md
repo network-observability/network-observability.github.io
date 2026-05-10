@@ -1,6 +1,6 @@
 ---
 title: Modern Network Observability
-description: Open material for the practice of network observability — book, hands-on workshops, and a real lab.
+description: Open material for the practice of network observability — book, hands-on workshops, podcast appearances, and a real lab.
 hide:
   - navigation
   - toc
@@ -12,28 +12,96 @@ hide:
 
 <h1 class="hub-hero__title">Build the observability your network deserves.</h1>
 
-<p class="hub-hero__subtitle">Open material — book, workshops, and a real lab — for the practice of asking honest questions about your network and getting answers you can act on at 02:14.</p>
+<p class="hub-hero__subtitle">Open material — book, workshops, talks, and a real lab — for the practice of asking honest questions about your network and getting answers you can act on at 02:14.</p>
 
 [Take the workshop →](https://network-observability.github.io/workshops/){ .md-button .md-button--primary }
 
 </div>
 
-## Other ways in
+## The book
 
-<div class="hub-cards" markdown>
-
-<a class="hub-card" href="https://github.com/network-observability/network-observability-lab">
-  <span class="hub-card__eyebrow">Companion · Hands-on</span>
-  <span class="hub-card__title">The Lab</span>
-  <p class="hub-card__body">The full chapter-by-chapter playground for the book — real cEOS / SR Linux containers, every collector, every variant, every scenario. The deeper version of what the workshop introduces.</p>
-  <span class="hub-card__cta">Open the lab →</span>
+<div class="hub-buy">
+<a class="hub-buy__chip" href="https://www.amazon.com/dp/1835081061" target="_blank" rel="noopener">
+  <strong>Amazon US</strong>
+  <span>Print &middot; Kindle</span>
 </a>
-
-<a class="hub-card" href="https://a.co/d/07ECqFDQ">
-  <span class="hub-card__eyebrow">The book</span>
-  <span class="hub-card__title">Modern Network Observability</span>
-  <p class="hub-card__body">The book that anchors the ecosystem. Telemetry pipelines, queries, dashboards, alerting, automation, and AI-assisted operations — chapter by chapter, with the lab as your hands-on companion.</p>
-  <span class="hub-card__cta">Read the book →</span>
+<a class="hub-buy__chip" href="https://www.amazon.co.uk/dp/1835081061" target="_blank" rel="noopener">
+  <strong>Amazon UK</strong>
+  <span>Print &middot; Kindle</span>
 </a>
+<a class="hub-buy__chip" href="https://www.amazon.es/dp/1835081061" target="_blank" rel="noopener">
+  <strong>Amazon ES</strong>
+  <span>Print &middot; Kindle</span>
+</a>
+<a class="hub-buy__chip" href="https://www.packtpub.com/en-us/product/modern-network-observability-9781835081068?type=print" target="_blank" rel="noopener">
+  <strong>Packt</strong>
+  <span>Print, eBook, subscription</span>
+</a>
+<a class="hub-buy__chip" href="https://www.oreilly.com/library/view/modern-network-observability/9781835081068/" target="_blank" rel="noopener">
+  <strong>O'Reilly</strong>
+  <span>Subscription</span>
+</a>
+<a class="hub-buy__chip" href="https://www.barnesandnoble.com/w/modern-network-observability-david-flores/1146287730" target="_blank" rel="noopener">
+  <strong>Barnes &amp; Noble</strong>
+  <span>Print &middot; eBook</span>
+</a>
+</div>
 
+<p class="hub-buy__caption">Telemetry pipelines, queries, dashboards, alerting, automation, and AI-assisted operations — chapter by chapter, with the lab as your hands-on companion. By <a href="https://github.com/davidban77">David Flores</a>, <a href="https://github.com/chadell">Christian Adell</a>, and <a href="https://github.com/jvanderaa">Josh VanDeraa</a>.</p>
+
+## Listen
+
+<div class="hub-media">
+<a class="hub-media__card" href="https://packetpushers.net/podcasts/network-automation-nerds/nan077-network-observability-tools-automation-and-insights/" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Network Automation Nerds &middot; Eric Chou</span>
+  <span class="hub-media__title">NAN077 — Network Observability: Tools, Automation &amp; Insights</span>
+  <span class="hub-media__body">The author trio with Eric Chou on practical strategies and real-world case studies for network observability.</span>
+  <span class="hub-media__cta">Listen on Packet Pushers →</span>
+</a>
+<a class="hub-media__card" href="https://packetpushers.net/podcasts/total-network-operations/tno009-from-network-monitoring-to-observability-make-the-leap-for-better-netops/" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Total Network Operations &middot; Packet Pushers</span>
+  <span class="hub-media__title">TNO009 — From Monitoring to Observability</span>
+  <span class="hub-media__body">Crossover with TNO on integrating diverse data sources, the tools, and what proactive operations actually looks like.</span>
+  <span class="hub-media__cta">Listen on Packet Pushers →</span>
+</a>
+<a class="hub-media__card" href="https://packetpushers.net/podcasts/network-automation-nerds/nan079-from-network-monitoring-to-observability-make-the-leap-for-better-netops/" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Network Automation Nerds &middot; Eric Chou</span>
+  <span class="hub-media__title">NAN079 — Make the Leap for Better NetOps</span>
+  <span class="hub-media__body">The follow-up — how teams get from a working monitoring stack to one they can actually act on at 02:14.</span>
+  <span class="hub-media__cta">Listen on Packet Pushers →</span>
+</a>
+</div>
+
+## Watch
+
+<div class="hub-media">
+<a class="hub-media__card" href="https://www.youtube.com/watch?v=GFETzK1Ji68" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Cisco NetDev gurus &middot; Part 1</span>
+  <span class="hub-media__title">Modern Network Observability — the framework</span>
+  <span class="hub-media__body">First of a three-part series. The why, the pillars, and the data pipeline that ties them together.</span>
+  <span class="hub-media__cta">Watch on YouTube →</span>
+</a>
+<a class="hub-media__card" href="https://www.youtube.com/watch?v=9y-uu62NKt4" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Cisco NetDev gurus &middot; Part 2</span>
+  <span class="hub-media__title">Modern Network Observability (cont.) — Ep. 74</span>
+  <span class="hub-media__body">Going deeper on the framework + the data pipeline through real examples.</span>
+  <span class="hub-media__cta">Watch on YouTube →</span>
+</a>
+<a class="hub-media__card" href="https://www.youtube.com/watch?v=7zRK9a9DieY" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">NetBCN &middot; March 2025</span>
+  <span class="hub-media__title">Modern Network Observability — Barcelona talk</span>
+  <span class="hub-media__body">Conference talk by David Flores — story-led, ~30 minutes, with audience Q&amp;A.</span>
+  <span class="hub-media__cta">Watch on YouTube →</span>
+</a>
+</div>
+
+## The companion lab
+
+<div class="hub-companion-wrap">
+<a class="hub-companion" href="https://github.com/network-observability/network-observability-lab" target="_blank" rel="noopener">
+  <span class="hub-companion__eyebrow">After the workshop</span>
+  <span class="hub-companion__title">network-observability-lab</span>
+  <span class="hub-companion__body">The book's chapter-by-chapter playground with real cEOS / SR Linux containers, every collector variant, and every scenario in the book. Larger surface area, more depth, the place to go once the workshop has whetted your appetite.</span>
+  <span class="hub-companion__cta">Open the lab on GitHub →</span>
+</a>
 </div>
