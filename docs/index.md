@@ -41,7 +41,7 @@ Network observability isn't a dashboard. It's the practice of asking honest ques
   <span class="hub-card__cta">Open the lab →</span>
 </a>
 
-<a class="hub-card" href="https://www.manning.com/books/modern-network-observability">
+<a class="hub-card" href="https://a.co/d/07ECqFDQ">
   <span class="hub-card__eyebrow">The book</span>
   <span class="hub-card__title">Modern Network Observability</span>
   <p class="hub-card__body">The book that anchors the whole ecosystem. Walks you through telemetry pipelines, queries, dashboards, alerting, automation, and AI-assisted operations — chapter by chapter, with the lab as your hands-on companion.</p>
