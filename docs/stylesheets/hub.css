@@ -1,0 +1,196 @@
+/* ===========================================================================
+ * Modern Network Observability — hub theme
+ *
+ * Mirrors the AutoCon5 workshops site styling so the two read as one
+ * ecosystem, with a slightly bigger hero on the hub.
+ * =========================================================================== */
+
+:root {
+  --hub-gradient-start: #00897b;
+  --hub-gradient-mid: #009688;
+  --hub-gradient-end: #00bcd4;
+  --hub-accent: #00e5ff;
+}
+
+[data-md-color-scheme="slate"] {
+  --hub-gradient-start: #004d40;
+  --hub-gradient-mid: #00695c;
+  --hub-gradient-end: #006064;
+  --hub-accent: #4dd0e1;
+}
+
+/* ---------- Hero -------------------------------------------------------- */
+
+.hub-hero {
+  background: linear-gradient(
+    135deg,
+    var(--hub-gradient-start) 0%,
+    var(--hub-gradient-mid) 50%,
+    var(--hub-gradient-end) 100%
+  );
+  color: #fff;
+  border-radius: 14px;
+  padding: 3rem 2.25rem;
+  margin: 0 0 2.5rem;
+  box-shadow: 0 12px 32px rgba(0, 137, 123, 0.20);
+}
+
+.hub-hero__badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.75rem;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+.hub-hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0 0 0.5rem;
+  color: #fff;
+}
+
+.hub-hero__subtitle {
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: 0.95;
+  margin: 0 0 1rem;
+}
+
+.hub-hero__lead {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0 0 1.5rem;
+  max-width: 60rem;
+}
+
+.hub-hero a.md-button {
+  background: #fff;
+  color: var(--hub-gradient-start);
+  border-color: #fff;
+  font-weight: 600;
+}
+
+.hub-hero a.md-button--primary {
+  background: var(--hub-accent);
+  color: #002b30;
+  border-color: var(--hub-accent);
+}
+
+.hub-hero a.md-button:hover,
+.hub-hero a.md-button:focus {
+  background: var(--hub-accent);
+  color: #002b30;
+  border-color: var(--hub-accent);
+}
+
+/* ---------- Featured cards (workshops, lab, book) ---------------------- */
+
+.hub-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.hub-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5rem 1.25rem;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--md-default-fg-color);
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hub-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--hub-gradient-mid);
+  box-shadow: 0 6px 20px rgba(0, 137, 123, 0.14);
+}
+
+.hub-card__eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--hub-gradient-mid);
+  margin-bottom: 0.4rem;
+}
+
+[data-md-color-scheme="slate"] .hub-card__eyebrow {
+  color: var(--hub-accent);
+}
+
+.hub-card__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0.6rem;
+}
+
+.hub-card__body {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin: 0 0 1rem;
+  flex-grow: 1;
+}
+
+.hub-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--hub-gradient-mid);
+}
+
+[data-md-color-scheme="slate"] .hub-card__cta {
+  color: var(--hub-accent);
+}
+
+.hub-card:hover .hub-card__cta {
+  text-decoration: underline;
+}
+
+/* ---------- Tooling strip ---------------------------------------------- */
+
+.hub-tooling {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 0;
+  padding: 1.25rem;
+  background: rgba(0, 188, 212, 0.05);
+  border-radius: 10px;
+}
+
+[data-md-color-scheme="slate"] .hub-tooling {
+  background: rgba(77, 208, 225, 0.05);
+}
+
+.hub-tooling__item {
+  font-size: 0.95rem;
+}
+
+.hub-tooling__item strong {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.hub-tooling__item a {
+  color: var(--md-typeset-a-color);
+}
+
+/* ---------- Reading polish on H2/H3 ------------------------------------ */
+
+.md-typeset h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
