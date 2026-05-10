@@ -12,7 +12,7 @@ hide:
 
 <h1 class="hub-hero__title">Build the observability your network deserves.</h1>
 
-<p class="hub-hero__subtitle">Open material — book, workshops, talks, and a real lab — for the practice of asking honest questions about your network and getting answers you can act on at 02:14.</p>
+<p class="hub-hero__subtitle">Book, lab, talks, workshops &mdash; modern network observability, in practice.</p>
 
 [Take the workshop →](https://network-observability.github.io/workshops/){ .md-button .md-button--primary }
 
@@ -48,6 +48,17 @@ hide:
 </div>
 
 <p class="hub-buy__caption">Telemetry pipelines, queries, dashboards, alerting, automation, and AI-assisted operations — chapter by chapter, with the lab as your hands-on companion.</p>
+
+## Workshops
+
+<div class="hub-media">
+<a class="hub-media__card" href="https://network-observability.github.io/workshops/" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">AutoCon5 &middot; 4 hours hands-on</span>
+  <span class="hub-media__title">Modern Network Observability — the AutoCon5 workshop</span>
+  <span class="hub-media__body">One workday on a new on-call rotation. Telemetry, dashboards, alerts, and AI-assisted operations on your laptop in four hours, with a senior engineer over your shoulder until lunch.</span>
+  <span class="hub-media__cta">Open the workshop →</span>
+</a>
+</div>
 
 ## The companion lab
 
