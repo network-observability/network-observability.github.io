@@ -2,7 +2,8 @@
  * Modern Network Observability — hub theme
  *
  * Mirrors the AutoCon5 workshops site styling so the two read as one
- * ecosystem, with a slightly bigger hero on the hub.
+ * ecosystem. Hero + book buy chips + podcast/video media cards + companion
+ * lab card.
  * =========================================================================== */
 
 :root {
@@ -59,12 +60,6 @@
   font-size: 1.4rem;
   font-weight: 400;
   opacity: 0.95;
-  margin: 0 0 1rem;
-}
-
-.hub-hero__lead {
-  font-size: 1.05rem;
-  line-height: 1.6;
   margin: 0 0 1.5rem;
   max-width: 60rem;
 }
@@ -89,19 +84,64 @@
   border-color: var(--hub-accent);
 }
 
-/* ---------- Featured cards (workshops, lab, book) ---------------------- */
+/* ---------- Book buy chips --------------------------------------------- */
 
-.hub-cards {
+.hub-buy {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.25rem;
-  margin: 1.5rem 0 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1rem;
 }
 
-.hub-card {
+.hub-buy__chip {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem 1.5rem 1.25rem;
+  gap: 0.15rem;
+  padding: 0.85rem 1rem;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--md-default-fg-color);
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hub-buy__chip:hover {
+  transform: translateY(-1px);
+  border-color: var(--hub-gradient-mid);
+  box-shadow: 0 4px 14px rgba(0, 137, 123, 0.10);
+}
+
+.hub-buy__chip strong {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.hub-buy__chip span {
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.hub-buy__caption {
+  font-size: 0.92rem;
+  color: var(--md-default-fg-color--light);
+  margin: 0.5rem 0 2rem;
+}
+
+/* ---------- Media cards (podcast / video) ------------------------------ */
+
+.hub-media {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.hub-media__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.25rem 1.25rem 1.1rem;
   background: var(--md-default-bg-color);
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 10px;
@@ -110,87 +150,132 @@
   transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-.hub-card:hover {
+.hub-media__card:hover {
   transform: translateY(-2px);
   border-color: var(--hub-gradient-mid);
-  box-shadow: 0 6px 20px rgba(0, 137, 123, 0.14);
+  box-shadow: 0 6px 20px rgba(0, 137, 123, 0.12);
 }
 
-.hub-card__eyebrow {
+.hub-media__eyebrow {
   font-size: 0.7rem;
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--hub-gradient-mid);
-  margin-bottom: 0.4rem;
 }
 
-[data-md-color-scheme="slate"] .hub-card__eyebrow {
+[data-md-color-scheme="slate"] .hub-media__eyebrow {
   color: var(--hub-accent);
 }
 
-.hub-card__title {
-  font-size: 1.25rem;
+.hub-media__title {
+  font-size: 1.05rem;
   font-weight: 700;
-  margin: 0 0 0.6rem;
+  line-height: 1.3;
 }
 
-.hub-card__body {
-  font-size: 0.95rem;
+.hub-media__body {
+  font-size: 0.92rem;
   line-height: 1.55;
-  margin: 0 0 1rem;
+  color: var(--md-default-fg-color--light);
   flex-grow: 1;
 }
 
-.hub-card__cta {
-  display: inline-flex;
-  align-items: center;
+.hub-media__cta {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--hub-gradient-mid);
+  margin-top: 0.25rem;
+}
+
+[data-md-color-scheme="slate"] .hub-media__cta {
+  color: var(--hub-accent);
+}
+
+.hub-media__card:hover .hub-media__cta {
+  text-decoration: underline;
+}
+
+/* ---------- Companion (single full-width card) ------------------------- */
+
+.hub-companion-wrap {
+  margin: 1rem 0 0;
+}
+
+.hub-companion {
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 0.4rem;
+  padding: 1.5rem 1.75rem;
+  background: linear-gradient(
+    100deg,
+    rgba(0, 188, 212, 0.06) 0%,
+    rgba(0, 137, 123, 0.04) 100%
+  );
+  border-left: 4px solid var(--hub-gradient-mid);
+  border-radius: 0 10px 10px 0;
+  text-decoration: none;
+  color: var(--md-default-fg-color);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+[data-md-color-scheme="slate"] .hub-companion {
+  background: linear-gradient(
+    100deg,
+    rgba(77, 208, 225, 0.06) 0%,
+    rgba(0, 137, 123, 0.04) 100%
+  );
+  border-left-color: var(--hub-accent);
+}
+
+.hub-companion:hover {
+  transform: translateX(2px);
+  box-shadow: 0 6px 18px rgba(0, 137, 123, 0.10);
+}
+
+.hub-companion__eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--hub-gradient-mid);
+}
+
+[data-md-color-scheme="slate"] .hub-companion__eyebrow {
+  color: var(--hub-accent);
+}
+
+.hub-companion__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.hub-companion__body {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--md-default-fg-color--light);
+  margin: 0.25rem 0;
+}
+
+.hub-companion__cta {
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--hub-gradient-mid);
 }
 
-[data-md-color-scheme="slate"] .hub-card__cta {
+[data-md-color-scheme="slate"] .hub-companion__cta {
   color: var(--hub-accent);
 }
 
-.hub-card:hover .hub-card__cta {
+.hub-companion:hover .hub-companion__cta {
   text-decoration: underline;
 }
 
-/* ---------- Tooling strip ---------------------------------------------- */
-
-.hub-tooling {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin: 1rem 0 0;
-  padding: 1.25rem;
-  background: rgba(0, 188, 212, 0.05);
-  border-radius: 10px;
-}
-
-[data-md-color-scheme="slate"] .hub-tooling {
-  background: rgba(77, 208, 225, 0.05);
-}
-
-.hub-tooling__item {
-  font-size: 0.95rem;
-}
-
-.hub-tooling__item strong {
-  display: block;
-  margin-bottom: 0.2rem;
-}
-
-.hub-tooling__item a {
-  color: var(--md-typeset-a-color);
-}
-
-/* ---------- Reading polish on H2/H3 ------------------------------------ */
+/* ---------- Reading polish --------------------------------------------- */
 
 .md-typeset h2 {
   font-weight: 700;
   letter-spacing: -0.01em;
+  margin-top: 2.5rem;
 }
