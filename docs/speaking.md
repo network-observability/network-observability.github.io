@@ -36,7 +36,7 @@ Conference talks, workshops, and webinars, newest first. Recordings that also ap
 <a class="hub-media__card" href="https://www.gr-ix.gr/2025/05/02/annual-members-meeting-grix-8-05-2025/" target="_blank" rel="noopener">
   <span class="hub-media__eyebrow">GR-IX Annual Members' Meeting &middot; Athens &middot; 8 May 2025</span>
   <span class="hub-media__title">Unlocking Network Data: A New Take on Observability</span>
-  <span class="hub-media__body">Talk and book presentation at the Greek Internet Exchange members' meeting. No public recording.</span>
+  <span class="hub-media__body">Invited talk sharing highlights from the book at the Greek Internet Exchange members' meeting, held at the Stavros Niarchos Foundation Cultural Center. No public recording.</span>
   <span class="hub-media__cta">See the event on GR-IX →</span>
 </a>
 <a class="hub-media__card" href="https://www.youtube.com/watch?v=7zRK9a9DieY" target="_blank" rel="noopener">
