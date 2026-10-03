@@ -10,6 +10,16 @@ Conference talks, workshops, and webinars, newest first. Recordings that also ap
 ## 2026
 
 <div class="hub-media">
+<div class="hub-media__card hub-media__card--multi">
+  <span class="hub-media__eyebrow">Packt &middot; Online &middot; 19 September 2026 &middot; Workshop</span>
+  <span class="hub-media__title">Building a Network Observability Stack with Tools, Automation, and AI</span>
+  <span class="hub-media__body">Three-hour online workshop with Christian Adell: Telegraf, Prometheus, Grafana, PromQL, LogQL, observability-driven automation, and AI for network operations. The workshop materials are public.</span>
+  <span class="hub-media__links">
+    <a href="https://network-observability.github.io/workshops/packt/" target="_blank" rel="noopener">Workshop materials →</a>
+    <a href="https://www.eventbrite.co.uk/e/building-a-network-observability-stack-with-tools-automation-and-ai-tickets-1993849714168" target="_blank" rel="noopener">Eventbrite →</a>
+    <a href="https://www.linkedin.com/events/7503016923736190977/" target="_blank" rel="noopener">LinkedIn event (paid) →</a>
+  </span>
+</div>
 <a class="hub-media__card" href="https://youtu.be/F6_f1piv0LI" target="_blank" rel="noopener">
   <span class="hub-media__eyebrow">AutoCon5 &middot; Munich &middot; June 2026 &middot; Talk</span>
   <span class="hub-media__title">Rethinking Network Monitoring</span>

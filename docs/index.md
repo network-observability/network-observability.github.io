@@ -56,6 +56,12 @@ hide:
 ## Workshops
 
 <div class="hub-media">
+<a class="hub-media__card" href="https://network-observability.github.io/workshops/packt/" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Packt &middot; 3 hours online &middot; September 2026</span>
+  <span class="hub-media__title">Building a Network Observability Stack with Tools, Automation, and AI</span>
+  <span class="hub-media__body">Telemetry and queries, dashboards and alerts, then observability-driven automation and AI-assisted ops. The whole stack runs on your laptop, and one alert is walked end to end.</span>
+  <span class="hub-media__cta">Open the workshop →</span>
+</a>
 <a class="hub-media__card" href="https://network-observability.github.io/workshops/" target="_blank" rel="noopener">
   <span class="hub-media__eyebrow">AutoCon5 &middot; 4 hours hands-on</span>
   <span class="hub-media__title">Modern Network Observability — the AutoCon5 workshop</span>
