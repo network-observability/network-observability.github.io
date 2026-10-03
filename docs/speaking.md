@@ -1,11 +1,11 @@
 ---
 title: Speaking
-description: Conference talks, keynotes, workshops, and webinars on network observability and automation by David Flores — newest first.
+description: Conference talks, workshops, and webinars on network observability and automation by David Flores — newest first.
 ---
 
 # Speaking
 
-Conference talks, keynotes, workshops, and webinars, newest first. Recordings that also appear under [Watch](index.md#watch) on the home page link to the same video.
+Conference talks, workshops, and webinars, newest first. Recordings that also appear under [Watch](index.md#watch) on the home page link to the same video.
 
 ## 2026
 
@@ -33,12 +33,12 @@ Conference talks, keynotes, workshops, and webinars, newest first. Recordings th
   <span class="hub-media__body">Conference talk at the Norwegian Network Operators Group meeting. Also under Watch on the home page.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
-<div class="hub-media__card hub-media__card--static">
-  <span class="hub-media__eyebrow">GR-IX Annual Members' Meeting &middot; Athens &middot; 8 May 2025 &middot; Keynote</span>
+<a class="hub-media__card" href="https://www.gr-ix.gr/2025/05/02/annual-members-meeting-grix-8-05-2025/" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">GR-IX Annual Members' Meeting &middot; Athens &middot; 8 May 2025</span>
   <span class="hub-media__title">Unlocking Network Data: A New Take on Observability</span>
-  <span class="hub-media__body">Keynote and book presentation for the Greek Internet Exchange members' meeting.</span>
-  <span class="hub-media__cta">No public recording</span>
-</div>
+  <span class="hub-media__body">Talk and book presentation at the Greek Internet Exchange members' meeting. No public recording.</span>
+  <span class="hub-media__cta">See the event on GR-IX →</span>
+</a>
 <a class="hub-media__card" href="https://www.youtube.com/watch?v=7zRK9a9DieY" target="_blank" rel="noopener">
   <span class="hub-media__eyebrow">NetBCN &middot; Barcelona &middot; March 2025</span>
   <span class="hub-media__title">Modern Network Observability: Seeing Beyond the Tools We Know</span>

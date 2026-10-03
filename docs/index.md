@@ -155,7 +155,7 @@ hide:
 
 <div class="hub-companion-wrap">
 <a class="hub-companion" href="speaking/">
-  <span class="hub-companion__eyebrow">Talks &middot; keynotes &middot; workshops &middot; webinars</span>
+  <span class="hub-companion__eyebrow">Talks &middot; workshops &middot; webinars</span>
   <span class="hub-companion__title">Speaking</span>
   <span class="hub-companion__body">Every talk since 2020, newest first &mdash; from AutoCon5 in Munich back to Interop, with recordings and slides where they exist.</span>
   <span class="hub-companion__cta">See all talks →</span>
