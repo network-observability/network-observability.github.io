@@ -262,6 +262,18 @@
   text-decoration: underline;
 }
 
+/* Card with no link yet (e.g. recording pending) — no hover lift. */
+.hub-media__card--static:hover {
+  transform: none;
+  border-color: var(--md-default-fg-color--lightest);
+  box-shadow: none;
+}
+
+.hub-media__card--static .hub-media__cta {
+  color: var(--md-default-fg-color--light);
+  font-weight: 500;
+}
+
 /* ---------- Companion (single full-width card) ------------------------- */
 
 .hub-companion-wrap {
@@ -336,6 +348,76 @@
 
 .hub-companion:hover .hub-companion__cta {
   text-decoration: underline;
+}
+
+/* ---------- About the author ----------------------------------------- */
+
+.hub-about {
+  padding: 1.5rem 1.75rem;
+  margin: 1rem 0 2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  background: var(--md-default-bg-color);
+}
+
+.hub-about p {
+  margin: 0;
+}
+
+.hub-about__name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.md-typeset .hub-about__role {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--hub-gradient-mid);
+  margin: 0.15rem 0 0.75rem;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .hub-about__role {
+  color: var(--hub-accent);
+}
+
+.md-typeset .hub-about__body {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .hub-about__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* ---------- Phone width ------------------------------------------------ */
+
+@media (max-width: 600px) {
+  .hub-hero {
+    padding: 2rem 1.25rem;
+  }
+
+  .hub-hero__title {
+    font-size: 2.1rem;
+  }
+
+  .hub-hero__subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hub-media {
+    grid-template-columns: 1fr;
+  }
+
+  .hub-companion,
+  .hub-about {
+    padding: 1.25rem;
+  }
 }
 
 /* ---------- Reading polish --------------------------------------------- */

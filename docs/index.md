@@ -45,6 +45,10 @@ hide:
   <strong>Barnes &amp; Noble</strong>
   <span>Print &middot; eBook</span>
 </a>
+<a class="hub-buy__chip" href="https://github.com/PacktPublishing/Modern-Network-Observability" target="_blank" rel="noopener">
+  <strong>Book code</strong>
+  <span>Packt repo on GitHub</span>
+</a>
 </div>
 
 <p class="hub-buy__caption">Telemetry pipelines, queries, dashboards, alerting, automation, and AI-assisted operations — chapter by chapter, with the lab as your hands-on companion.</p>
@@ -57,6 +61,12 @@ hide:
   <span class="hub-media__title">Modern Network Observability — the AutoCon5 workshop</span>
   <span class="hub-media__body">One workday on a new on-call rotation. Telemetry, dashboards, alerts, and AI-assisted operations on your laptop in four hours, with a senior engineer over your shoulder until lunch.</span>
   <span class="hub-media__cta">Open the workshop →</span>
+</a>
+<a class="hub-media__card" href="https://youtu.be/F6_f1piv0LI" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">AutoCon5 &middot; Munich &middot; June 2026</span>
+  <span class="hub-media__title">Rethinking Network Monitoring</span>
+  <span class="hub-media__body">Conference talk by David Flores and Christian Adell at AutoCon5 &mdash; the talk that pairs with the workshop. Same ideas, conference-stage edition.</span>
+  <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
 </div>
 
@@ -92,25 +102,37 @@ hide:
   <span class="hub-media__body">The follow-up — how teams get from a working monitoring stack to one they can actually act on at 02:14.</span>
   <span class="hub-media__cta">Listen on Packet Pushers →</span>
 </a>
+<a class="hub-media__card" href="https://secpro.substack.com/p/network-automation-insights-architecture-observability" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Packt SecPro Podcast &middot; #16</span>
+  <span class="hub-media__title">Network Automation: Insights, Architecture, and Observability</span>
+  <span class="hub-media__body">The author trio on how automation, architecture, and observability fit together. Paid episode for SecPro subscribers.</span>
+  <span class="hub-media__cta">Listen on Substack →</span>
+</a>
 </div>
 
 ## Watch
 
 <div class="hub-media hub-media--scroll">
-<a class="hub-media__card" href="https://www.youtube.com/watch?v=GFETzK1Ji68&t=3855s" target="_blank" rel="noopener">
-  <span class="hub-media__eyebrow">Cisco DevNet &middot; Part 1</span>
+<a class="hub-media__card" href="https://youtu.be/F6_f1piv0LI" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">AutoCon5 &middot; Munich &middot; June 2026</span>
+  <span class="hub-media__title">Rethinking Network Monitoring</span>
+  <span class="hub-media__body">Conference talk by David Flores and Christian Adell at AutoCon5 &mdash; the main-stage companion to the hands-on workshop.</span>
+  <span class="hub-media__cta">Watch on YouTube →</span>
+</a>
+<a class="hub-media__card" href="https://www.youtube.com/live/GFETzK1Ji68" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Cisco DevNet &middot; Part 1 &middot; June 2025</span>
   <span class="hub-media__title">Modern Network Observability — the framework</span>
   <span class="hub-media__body">First of a three-part series. The why, the pillars, and the data pipeline that ties them together.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
-<a class="hub-media__card" href="https://www.youtube.com/watch?v=wZj8uEimQQs&t=2012s" target="_blank" rel="noopener">
-  <span class="hub-media__eyebrow">Cisco DevNet &middot; Part 2</span>
+<a class="hub-media__card" href="https://www.youtube.com/live/9y-uu62NKt4" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Cisco DevNet &middot; Part 2 &middot; September 2025</span>
   <span class="hub-media__title">Modern Network Observability — going deeper</span>
   <span class="hub-media__body">Second of three. The data pipeline up close, with real examples and the trade-offs you hit in production.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
-<a class="hub-media__card" href="https://www.youtube.com/watch?v=9y-uu62NKt4&t=1636s" target="_blank" rel="noopener">
-  <span class="hub-media__eyebrow">Cisco DevNet &middot; Part 3</span>
+<a class="hub-media__card" href="https://www.youtube.com/live/wZj8uEimQQs" target="_blank" rel="noopener">
+  <span class="hub-media__eyebrow">Cisco DevNet &middot; Part 3 &middot; October 2025</span>
   <span class="hub-media__title">Modern Network Observability — putting it together</span>
   <span class="hub-media__body">Closing the series. Dashboards, alerts, and the automation that turns the pipeline into action.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
@@ -123,8 +145,31 @@ hide:
 </a>
 <a class="hub-media__card" href="https://www.youtube.com/watch?v=7zRK9a9DieY" target="_blank" rel="noopener">
   <span class="hub-media__eyebrow">NetBCN &middot; March 2025</span>
-  <span class="hub-media__title">Modern Network Observability — Barcelona talk</span>
+  <span class="hub-media__title">Modern Network Observability: Seeing Beyond the Tools We Know</span>
   <span class="hub-media__body">Conference talk at NetBCN by David Flores — story-led, ~30 minutes, with audience Q&amp;A.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
+</div>
+
+## Speaking
+
+<div class="hub-companion-wrap">
+<a class="hub-companion" href="speaking/">
+  <span class="hub-companion__eyebrow">Talks &middot; keynotes &middot; workshops &middot; webinars</span>
+  <span class="hub-companion__title">Speaking</span>
+  <span class="hub-companion__body">Every talk since 2020, newest first &mdash; from AutoCon5 in Munich back to Interop, with recordings and slides where they exist.</span>
+  <span class="hub-companion__cta">See all talks →</span>
+</a>
+</div>
+
+## About the author
+
+<div class="hub-about">
+  <p class="hub-about__name">David Flores</p>
+  <p class="hub-about__role">Senior Network Developer, Network Observability at CoreWeave &middot; Dublin</p>
+  <p class="hub-about__body">David builds observability platforms for network infrastructure. He co-wrote <em>Modern Network Observability</em> (Packt, 2024) with Christian Adell and Josh VanDeraa, and maintains the companion lab and workshops on this site.</p>
+  <p class="hub-about__links">
+    <a href="https://github.com/davidban77" target="_blank" rel="noopener">GitHub →</a>
+    <!-- TODO: add LinkedIn profile URL, e.g. <a href="https://www.linkedin.com/in/TODO/" target="_blank" rel="noopener">LinkedIn →</a> -->
+  </p>
 </div>
