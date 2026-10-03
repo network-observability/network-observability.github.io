@@ -68,12 +68,6 @@ hide:
   <span class="hub-media__body">One workday on a new on-call rotation. Telemetry, dashboards, alerts, and AI-assisted operations on your laptop in four hours, with a senior engineer over your shoulder until lunch.</span>
   <span class="hub-media__cta">Open the workshop →</span>
 </a>
-<a class="hub-media__card" href="https://youtu.be/F6_f1piv0LI" target="_blank" rel="noopener">
-  <span class="hub-media__eyebrow">AutoCon5 &middot; Munich &middot; June 2026</span>
-  <span class="hub-media__title">Rethinking Network Monitoring</span>
-  <span class="hub-media__body">Conference talk by David Flores and Christian Adell at AutoCon5 &mdash; the talk that pairs with the workshop. Same ideas, conference-stage edition.</span>
-  <span class="hub-media__cta">Watch on YouTube →</span>
-</a>
 </div>
 
 ## The companion lab
@@ -122,7 +116,7 @@ hide:
 <a class="hub-media__card" href="https://youtu.be/F6_f1piv0LI" target="_blank" rel="noopener">
   <span class="hub-media__eyebrow">AutoCon5 &middot; Munich &middot; June 2026</span>
   <span class="hub-media__title">Rethinking Network Monitoring</span>
-  <span class="hub-media__body">Conference talk by David Flores and Christian Adell at AutoCon5 &mdash; the main-stage companion to the hands-on workshop.</span>
+  <span class="hub-media__body">Conference talk by David Flores and Christian Adell at AutoCon5 in Munich.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
 <a class="hub-media__card" href="https://www.youtube.com/live/GFETzK1Ji68" target="_blank" rel="noopener">
@@ -168,14 +162,28 @@ hide:
 </a>
 </div>
 
-## About the author
+## Who's behind it
 
+<p class="hub-buy__caption">The book, the talks, and the workshops on this site come from the same small group of contributors.</p>
+
+<div class="hub-about-grid">
 <div class="hub-about">
   <p class="hub-about__name">David Flores</p>
   <p class="hub-about__role">Senior Network Developer, Network Observability at CoreWeave &middot; Dublin</p>
-  <p class="hub-about__body">David builds observability platforms for network infrastructure. He co-wrote <em>Modern Network Observability</em> (Packt, 2024) with Christian Adell and Josh VanDeraa, and maintains the companion lab and workshops on this site.</p>
+  <p class="hub-about__body">Builds observability platforms for network infrastructure. Co-author of <em>Modern Network Observability</em> (Packt, 2024), maintainer of the companion lab and workshops, and speaker at AutoCon, NONOG, NetBCN, OSMC, and more.</p>
   <p class="hub-about__links">
     <a href="https://github.com/davidban77" target="_blank" rel="noopener">GitHub →</a>
     <a href="https://www.linkedin.com/in/david-flores-80282917/" target="_blank" rel="noopener">LinkedIn →</a>
   </p>
 </div>
+<div class="hub-about">
+  <p class="hub-about__name">Christian Adell</p>
+  <p class="hub-about__role">Co-author &middot; co-presenter</p>
+  <p class="hub-about__body">Co-author of <em>Modern Network Observability</em> and author of <a href="https://designingnetworkautomation.com/" target="_blank" rel="noopener"><em>Designing Network Automation at Scale</em></a>. Co-presented <em>Rethinking Network Monitoring</em> at AutoCon5 and the Packt online workshop.</p>
+  <p class="hub-about__links">
+    <a href="https://www.linkedin.com/in/christianadell/" target="_blank" rel="noopener">LinkedIn →</a>
+  </p>
+</div>
+</div>
+
+<p class="hub-buy__caption"><em>Modern Network Observability</em> was co-written with Josh VanDeraa.</p>
