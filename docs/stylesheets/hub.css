@@ -374,7 +374,18 @@
   text-decoration: underline;
 }
 
-/* ---------- About the author ----------------------------------------- */
+/* ---------- Who's behind it (contributor cards) ----------------------- */
+
+.hub-about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.hub-about-grid .hub-about {
+  margin: 0;
+}
 
 .hub-about {
   padding: 1.5rem 1.75rem;
