@@ -17,7 +17,6 @@ Conference talks, workshops, and webinars, newest first. Recordings that also ap
   <span class="hub-media__links">
     <a href="https://network-observability.github.io/workshops/packt/" target="_blank" rel="noopener">Workshop materials →</a>
     <a href="https://www.eventbrite.co.uk/e/building-a-network-observability-stack-with-tools-automation-and-ai-tickets-1993849714168" target="_blank" rel="noopener">Eventbrite →</a>
-    <a href="https://www.linkedin.com/events/7503016923736190977/" target="_blank" rel="noopener">LinkedIn event (paid) →</a>
   </span>
 </div>
 <a class="hub-media__card" href="https://youtu.be/F6_f1piv0LI" target="_blank" rel="noopener">
