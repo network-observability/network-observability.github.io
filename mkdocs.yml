@@ -36,6 +36,10 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
+nav:
+  - Home: index.md
+  - Speaking: speaking.md
+
 extra_css:
   - stylesheets/hub.css
 
