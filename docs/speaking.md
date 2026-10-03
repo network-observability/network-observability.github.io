@@ -16,7 +16,7 @@ Conference talks, workshops, and webinars, newest first. Recordings that also ap
   <span class="hub-media__body">Three-hour online workshop with Christian Adell: Telegraf, Prometheus, Grafana, PromQL, LogQL, observability-driven automation, and AI for network operations. The workshop materials are public.</span>
   <span class="hub-media__links">
     <a href="https://network-observability.github.io/workshops/packt/" target="_blank" rel="noopener">Workshop materials →</a>
-    <a href="https://www.eventbrite.co.uk/e/building-a-network-observability-stack-with-tools-automation-and-ai-tickets-1993849714168" target="_blank" rel="noopener">Eventbrite →</a>
+    <a href="https://luma.com/packt-0rxq" target="_blank" rel="noopener">Buy the recording on Luma →</a>
   </span>
 </div>
 <a class="hub-media__card" href="https://youtu.be/F6_f1piv0LI" target="_blank" rel="noopener">
