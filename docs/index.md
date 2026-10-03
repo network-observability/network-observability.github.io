@@ -170,6 +170,6 @@ hide:
   <p class="hub-about__body">David builds observability platforms for network infrastructure. He co-wrote <em>Modern Network Observability</em> (Packt, 2024) with Christian Adell and Josh VanDeraa, and maintains the companion lab and workshops on this site.</p>
   <p class="hub-about__links">
     <a href="https://github.com/davidban77" target="_blank" rel="noopener">GitHub →</a>
-    <!-- TODO: add LinkedIn profile URL, e.g. <a href="https://www.linkedin.com/in/TODO/" target="_blank" rel="noopener">LinkedIn →</a> -->
+    <a href="https://www.linkedin.com/in/david-flores-80282917/" target="_blank" rel="noopener">LinkedIn →</a>
   </p>
 </div>

@@ -33,12 +33,11 @@ Conference talks, keynotes, workshops, and webinars, newest first. Recordings th
   <span class="hub-media__body">Conference talk at the Norwegian Network Operators Group meeting. Also under Watch on the home page.</span>
   <span class="hub-media__cta">Watch on YouTube →</span>
 </a>
-<!-- TODO: add GR-IX slides and/or recording link, then turn this <div> into an <a href="..."> card -->
 <div class="hub-media__card hub-media__card--static">
   <span class="hub-media__eyebrow">GR-IX Annual Members' Meeting &middot; Athens &middot; 8 May 2025 &middot; Keynote</span>
   <span class="hub-media__title">Unlocking Network Data: A New Take on Observability</span>
   <span class="hub-media__body">Keynote and book presentation for the Greek Internet Exchange members' meeting.</span>
-  <span class="hub-media__cta">Slides and recording to follow</span>
+  <span class="hub-media__cta">No public recording</span>
 </div>
 <a class="hub-media__card" href="https://www.youtube.com/watch?v=7zRK9a9DieY" target="_blank" rel="noopener">
   <span class="hub-media__eyebrow">NetBCN &middot; Barcelona &middot; March 2025</span>
@@ -51,19 +50,17 @@ Conference talks, keynotes, workshops, and webinars, newest first. Recordings th
 ## 2023
 
 <div class="hub-media">
-<!-- TODO: add OSMC 2023 recording link, then turn this <div> into an <a href="..."> card -->
 <div class="hub-media__card hub-media__card--static">
   <span class="hub-media__eyebrow">OSMC &middot; Nuremberg &middot; November 2023</span>
   <span class="hub-media__title">Open Source Tools for Next Generation Network Monitoring</span>
   <span class="hub-media__body">Talk at the Open Source Monitoring Conference.</span>
-  <span class="hub-media__cta">Recording to follow</span>
+  <span class="hub-media__cta">No public recording</span>
 </div>
-<!-- TODO: add OSMC 2023 recording link, then turn this <div> into an <a href="..."> card -->
 <div class="hub-media__card hub-media__card--static">
   <span class="hub-media__eyebrow">OSMC &middot; Nuremberg &middot; November 2023</span>
   <span class="hub-media__title">Boosting Root Cause Analysis Through Telemetry, Observability, and Automated Workflows</span>
   <span class="hub-media__body">Second talk at the Open Source Monitoring Conference.</span>
-  <span class="hub-media__cta">Recording to follow</span>
+  <span class="hub-media__cta">No public recording</span>
 </div>
 <a class="hub-media__card" href="https://github.com/networktocode/clemea-demo" target="_blank" rel="noopener">
   <span class="hub-media__eyebrow">Cisco Live EMEA &middot; Amsterdam &middot; 2023 &middot; Workshop</span>
